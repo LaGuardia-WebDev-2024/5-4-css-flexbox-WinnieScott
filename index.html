@@ -4,36 +4,84 @@
     <meta charset="utf-8" />
     <title>Unit 4 - Flexbox</title>
     <style>
+      #title {
+        background-color:rgb(114, 14, 14);
+        border:solid 7px
+      }
+      #one {
+        background-color:green;
+        display: flex;
+        height: 400px;
+        justify-content:space-around;
+        align-items:center;
+      }
+      #bookone {
+        background-color:rgb(73, 216, 73);
+        width:200px;
+        border:solid 7px;
+      }
+      #two {
+        background-color:rgb(31, 149, 204);
+        display: flex;
+        height: 400px;
+        justify-content:space-around;
+        align-items:center;
+      }
+      #booktwo {
+        background-color:rgb(14, 189, 233);
+        width:200px;
+        border: solid 7px;
+      }
+      #three {
+        background-color:rgb(201, 174, 23);
+        display: flex;
+        height: 400px;
+        justify-content:space-around;
+        align-items:center;
+      }
+      #bookthree {
+        background-color:rgb(241, 241, 4);
+        width:200px;
+        border:solid 7px
+      }
+      img {
+        border:solid 7px
+      }
     </style>
   </head>
   <body>
-    <h1>Cozy Reads</h1>
+    <h1 id="title">Cozy Reads</h1>
 
+     <div id="one">
       <img
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
         width="200"
       />
-      <p>
+      
+      <p id="bookone">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
-
-    <img
+     </div>
+     <div id="two">
+    <img 
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
       width="200"
     />
-    <p>
+    <p id="booktwo">
       The main character must oversee an inspection of a house for magical
       children. #CozyFantasy
     </p>
-
+    </div>
+    <div id="three">
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601307658i/53310061.jpg"
       width="200"
     />
-    <p>
+    <p id="bookthree">
       Who better to help cover up an accidental murder than overly protective
       aunties. #CozyMystery
     </p>
+  </div>
   </body>
 </html>
